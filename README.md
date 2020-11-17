@@ -1,6 +1,6 @@
 # txtClassification
 This is the data analysis on Consumer complaints of financial institutions dataset which can be found at 
-https://catalog.data.gov/dataset/consumer-complaint-database download at Sepetember 17, 2020.
+https://catalog.data.gov/dataset/consumer-complaint-database download at September 17, 2020.
 
 Since the original dataset is big to upload, the random sample of the original dataset is uploaded with 10000 rows.
 Please be noted that in the original code, the name of the file is uploaded is 'complaints.csv'. 
