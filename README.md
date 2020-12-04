@@ -7,6 +7,9 @@ Please be noted that in the original code, the name of the file is uploaded is '
 
  
 1-DataPreparingAndAnalysis.ipynb contains data preparing and some analysis on different features of the dataset.
+
+2-TxtClassDataPreProc.ipynb contains preprocessing of the dataset including, lowering case the document, removing special character, removing numbers, removing stop word, lemmatization.
+
 2- TxtClassRandomForest.ipynb contains data preprocessing on the prepared data. After preprocessing, Random Hyperparameter Grid search Instead of searching manually( RandomizedSearchCV) is used. Random search allowed us to narrow down the range for each hyperparameter. Now that we know where to concentrate our search, we can explicitly specify every combination of settings to try. We do this with GridSearchCV, a method that, instead of sampling randomly from a distribution, evaluates all combinations we define. 
 
 After building the optimizaed classifier, three different methods of validation are used: 10-Fold Cross Validation, 10-Fold Stratifed Cross Validation, Tran, test set split.
